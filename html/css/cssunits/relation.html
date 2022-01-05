@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* adjacent sibling selector*/
+        /*h2 + div {
+            background-color: aqua;
+        }*/
+        /*div + h2 {
+            background-color: aqua;
+        }*/
+         /*general sibling selector  */
+        /*h2 ~ div {
+            background-color: aqua;
+        }*/
+        /*div ~ h2 {
+            background-color: aqua;
+        }*/
+        /* child selector */
+        /* body > div {
+            background-color: aqua;
+        } */
+        /* body > h2 {
+            background-color: aqua;
+        } */
+        
+        /* desendent combinent */
+         /* body div{
+            background-color: aqua;
+        }  */
+        /* body h2{
+            background-color: aqua;
+        }  */
+        body div,
+        body h2{
+            background-color: aqua;
+        } 
+    </style>
+</head>
+<body>
+    <div>this is first div</div>
+    <section>
+        <div>div of section</div>
+    </section>
+    <section>
+        <h2>h2 of section</h2>
+    </section>
+    <h2>this is first heading</h2>
+    <h2>this is second heading</h2>
+    <div>this is second div</div>
+    <h2>this is second heading</h2>
+</body>
+</html>
