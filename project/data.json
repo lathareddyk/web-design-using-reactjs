@@ -1,0 +1,10 @@
+{
+    "cards":[{
+        "img":"./images/pic1.jfif",
+        "name":"iphone",
+        "price":"70k",
+        "model":"j2",
+        "offer":"55k"
+    }]
+}
+    
